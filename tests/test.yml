@@ -1,0 +1,6 @@
+# test file for zend-opcache-dashboards
+---
+- hosts: localhost
+  remote_user: root
+  roles:
+    - ansible-zend-opcache-dashboards
