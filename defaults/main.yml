@@ -1,0 +1,3 @@
+# defaults file for zend-opcache-dashboards
+---
+zend_opcache_dashboards_install_dirs: []
