@@ -5,6 +5,3 @@
   sudo: true
   roles:
     - zend-opcache-dashboards
-  vars:
-    zend_opcache_dashboards_install_dirs:
-      - /tmp

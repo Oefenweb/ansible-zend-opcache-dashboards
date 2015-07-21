@@ -4,3 +4,6 @@
   remote_user: root
   roles:
     - ansible-zend-opcache-dashboards
+  vars:
+    zend_opcache_dashboards_install_dirs:
+      - /tmp
