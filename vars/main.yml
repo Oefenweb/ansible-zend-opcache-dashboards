@@ -7,4 +7,4 @@ zend_opcache_dashboards_install_map:
   - name: opcache-gui
     url: https://raw.githubusercontent.com/amnuts/opcache-gui/master/index.php
   - name: ocp
-    url: https://gist.githubusercontent.com/ck-on/4959032/raw/234017a82352c0f901de996de1f6a8dcbe50ad57/ocp.php
+    url: https://gist.githubusercontent.com/ck-on/4959032/raw/ocp.php
