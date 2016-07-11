@@ -7,7 +7,10 @@
     owner: root
     group: root
     mode: 0755
-  tags: [configuration, zend-opcache-dashboards, zend-opcache-dashboards-download]
+  tags:
+    - configuration
+    - zend-opcache-dashboards
+    - zend-opcache-dashboards-download
 
 - name: download (latest)
   get_url:
@@ -17,8 +20,11 @@
     group: root
     mode: 0644
     force: true
-  with_items: zend_opcache_dashboards_install_map
-  tags: [configuration, zend-opcache-dashboards, zend-opcache-dashboards-download]
+  with_items: "{{ zend_opcache_dashboards_install_map }}"
+  tags:
+    - configuration
+    - zend-opcache-dashboards
+    - zend-opcache-dashboards-download
 
 - name: install
   file:
@@ -27,6 +33,9 @@
     state: link
     force: true
   with_nested:
-    - zend_opcache_dashboards_install_map
-    - zend_opcache_dashboards_install_dirs
-  tags: [configuration, zend-opcache-dashboards, zend-opcache-dashboards-install]
+    - "{{ zend_opcache_dashboards_install_map }}"
+    - "{{ zend_opcache_dashboards_install_dirs }}"
+  tags:
+    - configuration
+    - zend-opcache-dashboards
+    - zend-opcache-dashboards-install
