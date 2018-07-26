@@ -1,6 +1,6 @@
 ## zend-opcache-dashboards
 
-[![Build Status](https://travis-ci.org/Oefenweb/ansible-zend-opcache-dashboards.svg?branch=master)](https://travis-ci.org/Oefenweb/ansible-zend-opcache-dashboards) [![Ansible Galaxy](http://img.shields.io/badge/ansible--galaxy-zend--opcache--dashboards-blue.svg)](https://galaxy.ansible.com/list#/roles/4436)
+[![Build Status](https://travis-ci.org/Oefenweb/ansible-zend-opcache-dashboards.svg?branch=master)](https://travis-ci.org/Oefenweb/ansible-zend-opcache-dashboards) [![Ansible Galaxy](http://img.shields.io/badge/ansible--galaxy-zend--opcache--dashboards-blue.svg)](https://galaxy.ansible.com/Oefenweb/zend-opcache-dashboards)
 
 Set up Zend [OPCache](http://php.net/manual/en/book.opcache.php) Dashboards.
 
