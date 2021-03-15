@@ -1,4 +1,4 @@
-# tasks file for zend-opcache-dashboards
+# tasks file
 ---
 - name: create (download) directory
   file:

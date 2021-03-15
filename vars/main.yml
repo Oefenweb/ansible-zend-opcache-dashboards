@@ -1,4 +1,4 @@
-# vars file for zend-opcache-dashboards
+# vars file
 ---
 zend_opcache_dashboards_download_path: /var/lib/ansible/zend-opcache-dashboards/downloads
 zend_opcache_dashboards_install_map:

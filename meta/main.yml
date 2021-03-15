@@ -1,6 +1,7 @@
-# meta file for zend-opcache-dashboards
+# meta file
 ---
 galaxy_info:
+  namespace: oefenweb
   role_name: zend-opcache-dashboards
   author: Mischa ter Smitten
   company: Oefenweb.nl B.V.
