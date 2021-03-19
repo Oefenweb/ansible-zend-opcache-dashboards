@@ -3,8 +3,8 @@
 - hosts: localhost
   connection: local
   become: true
+  pre_tasks:
+    - name: include vars
+      include_vars: "{{ playbook_dir }}/vars/main.yml"
   roles:
     - ../../
-  vars:
-    zend_opcache_dashboards_install_dirs:
-      - /tmp
