@@ -1,0 +1,4 @@
+# vars file
+---
+zend_opcache_dashboards_install_dirs:
+  - /tmp
