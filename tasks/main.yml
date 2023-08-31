@@ -1,7 +1,7 @@
 # tasks file
 ---
 - name: create (download) directory
-  file:
+  ansible.builtin.file:
     path: "{{ zend_opcache_dashboards_download_path }}"
     state: directory
     owner: root
@@ -13,7 +13,7 @@
     - zend-opcache-dashboards-download
 
 - name: download (latest)
-  get_url:
+  ansible.builtin.get_url:
     url: "{{ item.url }}"
     dest: "{{ zend_opcache_dashboards_download_path }}/{{ item.name }}.php"
     owner: root
@@ -27,7 +27,7 @@
     - zend-opcache-dashboards-download
 
 - name: install
-  file:
+  ansible.builtin.file:
     src: "{{ zend_opcache_dashboards_download_path }}/{{ item.0.name }}.php"
     dest: "{{ item.1 }}/{{ item.0.name }}.php"
     state: link
