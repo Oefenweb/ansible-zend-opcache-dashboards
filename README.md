@@ -23,7 +23,7 @@ None
 ---
 - hosts: all
   roles:
-    - zend-opcache-dashboards
+    - oefenweb.zend-opcache-dashboards
 ```
 
 #### License
